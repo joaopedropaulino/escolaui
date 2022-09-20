@@ -10,6 +10,7 @@ import { CoreModule } from './core/core.module';
 import {MatTableModule} from '@angular/material/table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -24,6 +25,7 @@ import { BrowserModule } from '@angular/platform-browser';
     MatToolbarModule,
     MatTableModule,
     MatIconModule,
+    HttpClientModule,
     MatButtonModule,
     BrowserAnimationsModule,
     BrowserModule
